@@ -7,6 +7,13 @@ import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
 import DriverCard from './DriverCard';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
+import Carousel from "./Carousel"
+import NumbersTable from "./NumbersTable"
+
+
 
 function App() {
   return (
@@ -19,7 +26,6 @@ function App() {
         birth={new Date('1992-07-14')}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName="Delores "
         firstName="Obrien"
@@ -76,7 +82,6 @@ function App() {
       <Rating>3</Rating>
       <Rating>4</Rating>
       <Rating>5</Rating>
-
       <DriverCard
         name="Travis Kalanick"
         rating={4.2}
@@ -95,6 +100,29 @@ function App() {
           licensePlate: 'BE33ER',
         }}
       />
+      {/* Iteration 8 */}
+      <LikeButton /> <LikeButton />
+      {/* Iteration 9 */}
+      <ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
+      />
+      {/* Iteration 10 */}
+      <Dice />
+
+
+      {/* Iteration 11 */}
+      <Carousel
+        imgs={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+
+      {/* Iteração 12 */}
+      <NumbersTable limit={12} />
     </div>
   );
 }
