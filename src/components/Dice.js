@@ -20,7 +20,7 @@ class Dice extends React.Component {
       <div>
         <img
           src={this.state.randomDice}
-          alt="Image of dice"
+          alt="A dice"
           onClick={this.eventHandler}
         />
       </div>

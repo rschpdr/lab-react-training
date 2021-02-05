@@ -28,7 +28,7 @@ class Carousel extends React.Component {
     return (
       <div>
         <button onClick={this.leftClick}>Left</button>
-        <img src={this.props.imgs[this.state.selected]} />
+        <img src={this.props.imgs[this.state.selected]} alt="People's pics" />
         <button onClick={this.rightclick}>Right</button>
       </div>
     );

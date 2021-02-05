@@ -1,0 +1,25 @@
+.NumbersTable {
+  padding: 0;
+  /* flex-wrap: wrap; */
+}
+
+.NumbersTable li {
+  display: flex;
+  list-style-type: none;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+}
+
+.NumbersTable ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
