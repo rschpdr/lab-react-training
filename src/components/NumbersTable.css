@@ -1,10 +1,10 @@
-ul {
+.tableNumbers {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
 }
 
-li {
+.tableNumbers li {
     list-style-type: none;
     display: flex;
     height: 50px;

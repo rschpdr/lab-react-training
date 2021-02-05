@@ -11,17 +11,12 @@ class NumbersTable extends React.Component {
 
     for (let i = 1; i <= this.state.limit; i++) {
       items.push(
-        <li style={{ backgroundColor: i % 2 == 0 ? 'red' : 'white' }}>{i}</li>
+        <li style={{ backgroundColor: i % 2 === 0 ? 'red' : 'white' }}>{i}</li>
       );
     }
 
-    return <ul>{items}</ul>;
+    return <ul className="tableNumbers">{items}</ul>;
   }
 }
-
-// function NumbersTable() {
-//     return(
-//     )
-// }
 
 export default NumbersTable;

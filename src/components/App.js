@@ -12,6 +12,7 @@ import ClickablePicture from './ClickablePicture';
 import Dice from './Dice';
 import Carousel from "./Carousel"
 import NumbersTable from "./NumbersTable"
+import FaceBook from "./FaceBook"
 
 
 
@@ -123,6 +124,10 @@ function App() {
 
       {/* Iteração 12 */}
       <NumbersTable limit={12} />
+
+      {/* Iteração 13 */}
+      <FaceBook />
+
     </div>
   );
 }
