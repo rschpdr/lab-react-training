@@ -1,6 +1,6 @@
 import React from 'react';
 import BoxColor from './BoxColor';
-import mastercard from '../imgs/master-card.svg';
+import mastercard from '../imgs/master-card.png';
 import visa from '../imgs/visa.png';
 import './CreditCard.css';
 
